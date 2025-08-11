@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Luckiest+Guy&family=Mozilla+Headline:wght@200..700&display=swap');
+
+ body {
+     font-family: "Mozilla Headline", sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+ }
+
+ #stopwatch {
+     text-align: center;
+ }
+
+ #display {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+
+ button {
+     font-size: 24px;
+     padding: 10px 20px;
+     margin: 5px;
+     cursor: pointer;
+     border: none;
+     border-radius: 19px;
+     background-color: #82ac80;
+     color: white;
+     font-weight: 500;
+     font-size: 28px;
+
+ }
+
+ .container {
+     font-size: 24px;
+     padding: 50px;
+     margin: 5px;
+     border: 5px solid black;
+     border-radius: 5px;
+     background-color: #82ac80;
+     border-radius: 99px;
+ }
+
+ button:hover {
+     background-color: white;
+     color: #417a3e;
+     transition-duration: 0.5s ease-in-out;
+     border: 2px solid #82ac80;
+ }
+
+ #stopwatch {
+     border: 4px solid #82ac80;
+     border-radius: 49px;
+     padding: 40px;
+     display: inline-block;
+     background-color: white;
+ }
+
+ h1 {
+     font-family: "Luckiest Guy", cursive;
+     font-size: 50px;
+     letter-spacing: 5px;
+     color: azure;
+     font-weight: 200;
+ }
